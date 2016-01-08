@@ -1,0 +1,22 @@
+{
+  "name": "bitcoinnodes",
+  "version": "1.0.0",
+  "description": "Display Bitcoin Nodes",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+	"request": "2.64.0",
+	"lodash": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "halving",
+    "countdown"
+  ],
+  "author": "Mathieu Gorichon",
+  "license": "ISC"
+}

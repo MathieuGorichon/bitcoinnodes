@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8"/>
+	<title>HalvingCountdown</title>
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+	<div class="angular" ng-controller="chartCtrl">
+		<span class="chart chart-clear" easypiechart percent="percent" options="anotherOptions">
+			<span class="clock-text-value">{{days}}</span>
+			<span class="clock-text-unit">Days</span>
+		</span>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js"></script>
+	<script src="angular.easypiechart.js"></script>
+	<script src="chartCtrl.js"></script>
+</body>
+</html>
